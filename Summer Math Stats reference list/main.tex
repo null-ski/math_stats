@@ -1,0 +1,188 @@
+%--------------------------------------------------------------------
+%  Study-Plan & Cross-Reference  –  Probability & Statistical Inference
+%--------------------------------------------------------------------
+\documentclass[12pt]{article}
+
+% ---------- Packages ----------
+\usepackage{fontspec}
+\setmainfont{Arial}
+\usepackage[margin=.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{caption}          % <-- for \captionof
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{multirow}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\begin{document}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Cross Refernce Tables for Chapter 1-3 of P&S 10
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\caption*{\small{PSI}\footnotesize{($10^{th}$)}: \small{Chapter I-III vs. Casella \& Berger}\footnotesize{($2^{nd}$)} \small{and DeGroot \& Schervish}\footnotesize{($3^{rd}$)}}
+
+\begin{tabular}{
+    p{1.8cm}    % Week
+    p{1.8cm}    % Section
+    p{6.4cm}    % Topic
+    p{5cm}      % C & B
+    p{5.1cm}    % DG & S
+    }   
+\toprule
+\multicolumn{5}{c}{%
+  \begin{tabular}{@{}
+      >{\centering\arraybackslash}p{10cm}        % spans cols 1–2
+      >{\centering\arraybackslash}p{10.1cm}       % spans cols 3–4
+    }
+    \makebox[10cm][c]{\hspace*{-1cm}\textbf{--- PSI \footnotesize{($10^{th}$)} ---}} &
+    \makebox[10.1cm][c]{\hspace*{-1cm}\textbf{--- Reference Sections ---}}
+  \end{tabular}
+}\\
+\midrule
+
+% ---------- Chapter 1 ----------
+
+\multicolumn{5}{c}{\textbf{\underline{Topic I: Probability}}}\\[2pt]
+\textbf{Week} & \textbf{Section} & \textbf{Topic} & \textbf{Casella \& Berger}\footnotesize{($2^{nd}$)} & \textbf{DeGroot \& Schervish}\footnotesize{($3^{rd}$)}\\
+\midrule
+1   &   1.1 & Axioms of probability         & 1.1 – 1.2 & 1.5 – 1.6\\[10pt]
+    %\addlinespace
+2   &   1.2 & Counting (perm., comb.)       & 1.3       & 1.7 – 1.9\\[10pt]
+    %\addlinespace
+\multirow{2}{*}{3}%
+    &   1.3 & Conditional probability       & 1.4       & 2.1\\[2pt]
+    &   1.4 & Independence                  & 1.5       & 2.2\\[10pt]
+    %\addlinespace
+4   &   1.5 & Bayes’ Theorem                & 1.6       & 2.3\\[2pt]
+\midrule
+
+% ---------- Chapter 2 ----------
+
+\multicolumn{5}{c}{\textbf{\underline{Topic II: Discrete Distributions}}}\\[2pt]
+\textbf{Week} & \textbf{Section} & \textbf{Topic} & \textbf{Casella \& Berger}\footnotesize{($2^{nd}$)} & \textbf{DeGroot \& Schervish}\footnotesize{($3^{rd}$)}\\
+\midrule
+\multirow{2}{*}{5}%
+    &   2.1 & Discrete r.v.’s (pmf, cdf)    & 2.1       & 3.1\\[2pt]
+    &   2.2 & Expectation                   & 2.2 – 2.4 & 4.1 – 4.4\\[10pt]
+    %\addlinespace
+6   &   2.3 & Mean, variance, MGF           & 2.4, 3.1  & 4.4 – 4.7\\[10pt]
+\multirow{2}{*}{7}%
+    &   2.4 & Binomial                      & 2.3       & 5.2\\[2pt]
+    &   2.5 & Hypergeometric                & 2.3       & 5.3\\[10pt]
+\multirow{2}{*}{8}%
+    &   2.6 & Negative binomial             & 2.3       & 5.5\\[2pt]
+    &   2.7 & Poisson                       & 2.3       & 5.4\\[2pt]
+\midrule
+
+% ---------- Chapter 3 ----------
+
+\multicolumn{5}{c}{\textbf{\underline{Topic III: Continuous Distributions}}}\\[2pt]
+\textbf{Week} & \textbf{Section} & \textbf{Topic} & \textbf{Casella \& Berger}\footnotesize{($2^{nd}$)} & \textbf{DeGroot \& Schervish}\footnotesize{($3^{rd}$)}\\
+\midrule
+\multirow{2}{*}{9}%
+    &   3.1 & Continuous r.v.’s (pdf, cdf)  & 3.1       & 3.2 – 3.3\\[2pt]
+    &   3.2 & Exponential, Gamma, $\chi^2$  & 3.3       & 5.6 – 5.7\\[10pt]
+    %\addlinespace
+\multirow{2}{*}{10}%
+    &  3.3 & Normal distribution           & 3.2       & 5.6\\[2pt]
+    &  3.4 & Beta, Uniform, etc.           & 3.4 – 3.6 & 5.8 – 5.9\\[2pt]
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  Study Plan for Chapter I - III of PSI $10^{th}$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{landscape}
+\begin{table}[htbp]
+\centering
+\caption*{\small{Math Stats I: PSI}\footnotesize{($10^{th}$)}: \small{Chapter I-III): 10-Week Study Plan with Problems by Book}}
+
+
+\begin{tabular}{%
+    p{1.2cm}   % Week
+    p{5cm}     % Topic
+    p{1cm}p{4cm}  % PSI Sec / Ex
+    p{1cm}p{3.2cm}  % C&B Sec / Ex
+    p{1cm}p{2.7cm}  % D&S Sec / Ex
+  }
+\toprule
+\multicolumn{2}{c}{} &%
+\multicolumn{2}{c}{\hspace*{-2.5cm}\textbf{PSI} \footnotesize{($10^{th}$)}} &%
+\multicolumn{2}{c}{\hspace*{-2cm}\textbf{Casella \& Berger} \footnotesize{($2^{nd}$)}} &%
+\multicolumn{2}{c}{\hspace*{-1cm}\textbf{DeGroot \& Schervish} \footnotesize{($3^{rd}$)}}\\
+\midrule
+% ---------- Chapter 1 ----------
+\multicolumn{8}{c}{\textbf{\underline{Topic I: Probability}}}\\[2pt]
+\addlinespace
+\textbf{Week}   &
+\textbf{Topic}  &
+\textbf{Sec.}   & \textbf{Ex.} &
+\textbf{Sec.}   & \textbf{Ex.} &
+\textbf{Sec.}   & \textbf{Ex.}\\
+\midrule
+\addlinespace
+1   & Probability axioms        & 1.1   & 1,3,5,9       & 1.1       & 1,3,6     & 1.5       & 1,3\\[10pt]
+2   & Counting methods          & 1.2   & 11,13,17,19   & 1.3       & 1,4,8     & 1.7       & 5\\[2pt]
+    &                           &       &               &           &           & 1.9       & 9\\[10pt]
+\multirow{2}{*}{3} &
+    Conditional probability     & 1.3   & 1,5,9,13      & 1.4       & 1,4       & 2.1       & 3,6\\[2pt]
+    & Independence              & 1.4   & 3,7,11        & 1.5       & 2,5,6     & 2.2       & 1,4\\[10pt]
+4   & Bayes’ theorem            & 1.5   & 1,5,9,15      & 1.6       & 1,3       & 2.3       & 2,6\\[2pt]
+\midrule
+% ---------- Chapter 2 ----------
+\multicolumn{8}{c}{\textbf{\underline{Topic II: Discrete Distributions}}}\\[2pt]
+\addlinespace
+\textbf{Week}   &
+\textbf{Topic}  &
+\textbf{Sec.}   & \textbf{Ex.} &
+\textbf{Sec.}   & \textbf{Ex.} &
+\textbf{Sec.}   & \textbf{Ex.}\\
+\midrule
+    
+\multirow{2}{*}{5} &
+Discrete r.v.’s (pmf, cdf)      & 2.1       & 1,3,7,9       & 2.1       & 1,2       & 3.1       & 1,5\\[2pt]
+& Expectation                   & 2.2       & 9,13,15       & 2.2       & 3,5       & 4.1       & 1,3\\[10pt]
+    
+6 & MGF, mean, variance         & 2.3       & 1,5,11,17     & 2.4       & 1,4       & 4.4       & 2,6\\[10pt]
+    
+\multirow{2}{*}{7}
+    & Binomial                  & 2.4       & 1,7,9         & 2.3       & 2,6       & 5.2       & 1,5\\[2pt]
+    & Hypergeometric            & 2.5       & 3,5,7         & 2.3       & 10        & 5.3       & 2,6\\[10pt]
+    
+\multirow{2}{*}{8}
+    & Negative binomial         & 2.6       & 9,13          & 2.3       & 12        & 5.5       & 1,3\\[2pt]
+    & Poisson                   & 2.7       & 1,5,11        & 2.3       & 14        & 5.4       & 2,4\\[2pt]
+\midrule
+    %\addlinespace
+% ---------- Chapter 3 ----------
+\multicolumn{8}{c}{\textbf{\underline{Topic III: Continuous Distributions}}}\\[2pt]
+\textbf{Week}   &
+\textbf{Topic}  &
+\textbf{Sec.}   & \textbf{Ex.} &
+\textbf{Sec.}   & \textbf{Ex.} &
+\textbf{Sec.}   & \textbf{Ex.}\\
+\midrule
+    %\addlinespace
+\multirow{2}{*}{9} &
+Continuous r.v.’s (pdf, cdf)    & 3.1       & 2,6,10        & 3.1       & 1,3     & 3.3       & 1,4\\[2pt]
+& Exp, Gamma, $\chi^{2}$        & 3.2       & 5,7,9         & 3.3       & 2,6     & 5.6       & 1,5\\[10pt]
+
+\multirow{2}{*}{10} &
+    Normal distribution         & 3.3       & 1,5,13        & 3.2       & 2,8     & 5.6       & 6,10\\[2pt]
+    & Beta, Uniform, etc.       & 3.4       & 3,7,11        & 3.4       & 4,7     & 5.8       & 1,4\\[2pt]
+\bottomrule
+\end{tabular}
+\end{table}
+\end{landscape}
+
+\end{document}

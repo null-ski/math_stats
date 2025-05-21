@@ -1,0 +1,56 @@
+%------------------------------------------------------------
+%  Weekly Worksheet Template  (evenly-shared blank space)
+%------------------------------------------------------------
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\setlist{leftmargin=*,labelsep=0.4em}
+
+\begin{document}
+
+%================================================================
+% Duplicate this whole block for each week
+%================================================================
+\begin{center}
+\begin{minipage}[t][\textheight]{\textwidth}  % page-filling frame
+  \section*{Weekly Worksheet \#\_\_ \hfill Dates: \_\_ -- \_\_}
+
+  %---------------- Objectives (with stretch glue) --------------
+  \subsection*{Objectives}
+  \begin{itemize}[noitemsep]
+    \item Key concepts to master:
+  \vspace{\stretch{1}}          % 2️⃣   (between bullets)
+    \item Theorems / definitions:
+  \end{itemize}
+  \vspace{\stretch{1}}
+  %---------------- Reading Log ---------------------------------
+  \subsection*{Reading Log}
+  \begin{enumerate}[label=\arabic*.,itemsep=1.2em]
+    \item PSI-10 pp.\,\underline{\hspace{1.8cm}}--\underline{\hspace{1.8cm}}
+    \item Casella \& Berger pp.\,\underline{\hspace{1.8cm}}--\underline{\hspace{1.8cm}}
+    \item DeGroot \& Schervish pp.\,\underline{\hspace{1.8cm}}--\underline{\hspace{1.8cm}}
+  \end{enumerate}
+
+  %---------------- Worked Problems -----------------------------
+  \subsection*{Worked Problems}
+  \begin{enumerate}[label=\arabic*.,itemsep=1.2em]
+    \item \textbf{PSI-10} ex.\,\underline{\hspace{1cm}}
+    \item \textbf{C\&B}   ex.\,\underline{\hspace{1cm}}
+    \item \textbf{D\&S}   ex.\,\underline{\hspace{1cm}}
+  \end{enumerate}
+
+  %---------------- Self-Assessment (with stretch glue) ---------
+  \subsection*{Self-Assessment}
+  \begin{itemize}[noitemsep]
+    \item Concepts still unclear:
+  \vspace{\stretch{1}}          % 3️⃣   (between bullets)
+    \item Action items for next week:
+  \end{itemize}
+  \vspace{\stretch{1}}          % 4️⃣   (after last bullet)
+
+\end{minipage}
+\end{center}
+
+\end{document}
