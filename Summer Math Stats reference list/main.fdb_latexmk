@@ -1,0 +1,21 @@
+# Fdb version 4
+["pdflatex"] 1747804192.18184 "/Users/anthonyeldred/Developer/School/math_stats/Summer Math Stats reference list/main.tex" "main.pdf" "main" 1747804192.34935 2
+  "/Users/anthonyeldred/Developer/School/math_stats/Summer Math Stats reference list/main.tex" 1747817726 7695 b01fb37b108fc5bf714a4cda673a0a49 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo" 1738182759 8449 ffe4ba2166a344827c3a832d1d5e0a91 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty" 1715459803 3755 4872b99d810c024f9c09bb1c62ffee3b ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1745869811 30366 13daaaa774357bc2a262523ba6a04bac ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty" 1745869811 6558 e00ead217769dd82217e7c94d181dc63 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1724879202 9783 ab4bee47700c04aadedb8da27591b0ab ""
+  "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
+  "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1747012149 3567263 2ca19056c3cc2111a03213317cb6b197 ""
+  "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "main.aux" 0 -1 0 "pdflatex"
+  "main.tex" 1747817726 7695 b01fb37b108fc5bf714a4cda673a0a49 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)
